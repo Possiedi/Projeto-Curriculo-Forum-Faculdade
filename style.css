@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(110deg, rgb(30, 30, 138), rgb(194, 34, 194));
+}
+header{
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid rgb(0, 81, 255);
+    display: flex;
+    background: white;
+    border-radius: 10px;
+}
+@media(max-width: 767px){
+    header{
+        margin: 0px auto;
+    }
+}
+.frase{
+    max-width: 800px;
+    margin: 60px auto;
+}
+.frase p{
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+main{
+    max-width: 800px;
+    margin: 60px auto 0px auto;
+    border: 2px solid rgb(0, 81, 255);
+    background: white;
+    border-radius: 10px;
+}
+main table{
+    margin: 10px auto;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-spacing: 0px;
+}
+@media(max-width: 767px){
+    main table{
+        margin: 0px auto;
+    }
+}
+main table tr th{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 40px;
+    padding: 5px;
+    border: 2px solid white;
+    color: rgb(84, 84, 230);
+}
+main table tr td{
+    padding: 10px;
+    border: 2px solid white;
+}
+footer{
+    max-width: 800px;
+    margin: 40px auto 0px auto;
+    background: white;
+    border: 2px solid rgb(0, 81, 255);
+    border-radius: 5px;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;             
+}
