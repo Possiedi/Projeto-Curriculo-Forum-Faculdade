@@ -16,7 +16,7 @@ header{
 }
 @media(max-width: 767px){
     header{
-    margin: 0px auto;
+        margin: 0px auto;
     }
 }
 .frase{
@@ -52,7 +52,7 @@ main table{
 }
 @media(max-width: 767px){
     main table{
-    margin: 0px auto;
+        margin: 0px auto;
     }
 }
 main table tr th{
@@ -66,6 +66,11 @@ main table tr td{
     padding: 7px;
     font-size: 23px;
     border: 2px solid white;
+}
+@media(max-width: 767px){
+    main table tr td{
+        font-size: 20px;
+    }
 }
 footer{
     max-width: 800px;
